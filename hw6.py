@@ -3,7 +3,7 @@ import time
 
 class TwitterUser(object):
 
-    def __init__(self, screen_name):
+    	def __init__(self, screen_name):
 		auth = tweepy.OAuthHandler('HT2lRb24tnyJ2THT2iBjmQ', 'sah4nVYDjXUiQPT0tbGwkeOefL2WPQ83hlLShFwioU')
 		auth.set_access_token('29498268-YF6JtHJCL5MwwiYwhdaHVKXOmwV98fmIcwllVKOWw', 'BaWMo1ed44RjJ5tyLVC17wbHLMw11R2mnRhbAyLTbkg')
 		self.api = tweepy.API(auth)
